@@ -33,8 +33,12 @@ DEBUG = True
 _extra_hosts = [
     h.strip() for h in os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
     if h.strip()]
-ALLOWED_HOSTS = ['localhost', '127.0.0.1'] + _extra_hosts
-CSRF_TRUSTED_ORIGINS = ['https://' + h for h in _extra_hosts]
+# The Skills Network lab serves the deployed app from a subdomain of
+# proxy.cognitiveclass.ai
+ALLOWED_HOSTS = [
+    'localhost', '127.0.0.1', '.proxy.cognitiveclass.ai'] + _extra_hosts
+CSRF_TRUSTED_ORIGINS = ['https://*.proxy.cognitiveclass.ai'] + [
+    'https://' + h for h in _extra_hosts]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
