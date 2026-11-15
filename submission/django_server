@@ -1,0 +1,17 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 15, 2026 - 14:26:58
+Django version 5.2.19, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[15/Nov/2026 14:27:04] "POST /djangoapp/register HTTP/1.1" 200 49
+[15/Nov/2026 14:27:06] "POST /djangoapp/login HTTP/1.1" 200 49
+[15/Nov/2026 14:27:06] "GET /djangoapp/logout HTTP/1.1" 200 16
+GET from http://localhost:3030/fetchReviews/dealer/15 
+[15/Nov/2026 14:27:07] "GET /djangoapp/reviews/dealer/15 HTTP/1.1" 200 865
+GET from http://localhost:3030/fetchDealers 
