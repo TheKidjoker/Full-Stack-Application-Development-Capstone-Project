@@ -1,0 +1,403 @@
+$ gh run view 43753037529 --verbose
+
+✓ main Lint Code · 43753037529
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Lint JavaScript Files in 14s (ID 132930993047)
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Install Node.js
+  ✓ Install JSHint
+  ✓ Run Linter
+  ✓ Post Install Node.js
+  ✓ Post Checkout Repository
+  ✓ Complete job
+✓ Lint Python Files in 8s (ID 132930993218)
+  ✓ Set up job
+  ✓ Checkout Repository
+  ✓ Set up Python
+  ✓ Install dependencies
+  ✓ Print working directory
+  ✓ Run Linter
+  ✓ Post Set up Python
+  ✓ Post Checkout Repository
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Lint JavaScript Files: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+Lint JavaScript Files: .github#1
+
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Lint Python Files: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+Lint Python Files: .github#1
+
+
+For more information about a job, try: gh run view --job=<job-id>
+View this run on GitHub: https://github.com/TheKidjoker/Full-Stack-Application-Development-Capstone-Project/actions/runs/43753037529
+
+$ gh run view 43753037529 --log
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0172948Z Current runner version: '2.338.2'
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0189609Z ##[group]Runner Image Provisioner
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0190332Z Hosted Compute Agent
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0190735Z Version: 20261103.629
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0191218Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0191740Z Build Date: 2026-11-03T17:26:59Z
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0192225Z Worker ID: {39a98a47-0f76-4d11-9513-a57f7df16a2f}
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0192747Z Region: us-west-2
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0193131Z Cloud: AWS
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0193513Z ##[endgroup]
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0194581Z ##[group]Operating System
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0195078Z Ubuntu
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0195466Z 26.04.1
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0195824Z LTS
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0196250Z ##[endgroup]
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0196630Z ##[group]Runner Image
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0197041Z Image: ubuntu-26.04
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0197571Z Version: 20261111.82.6
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0198349Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261111.82/images/ubuntu/Ubuntu2604-Readme.md
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0199616Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261111.82
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0200297Z ##[endgroup]
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0201181Z ##[group]GITHUB_TOKEN Permissions
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0202671Z Contents: read
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0203105Z Metadata: read
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0203491Z Packages: read
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0204106Z ##[endgroup]
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0206046Z Secret source: Actions
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0206741Z Cache mode: write
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0207221Z Prepare workflow directory
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0429366Z Prepare all required actions
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.0464918Z Getting action download info
+Lint JavaScript Files	Set up job	2026-11-15T19:33:00.3767634Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Lint JavaScript Files	Set up job	2026-11-15T19:33:01.4545106Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Lint JavaScript Files	Set up job	2026-11-15T19:33:01.6156929Z Complete job name: Lint JavaScript Files
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6858245Z ##[group]Run actions/checkout@v4
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6859430Z with:
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6860588Z   repository: TheKidjoker/Full-Stack-Application-Development-Capstone-Project
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6868070Z   token: ***
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6868873Z   ssh-strict: true
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6869650Z   ssh-user: git
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6870465Z   persist-credentials: true
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6871315Z   clean: true
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6872083Z   sparse-checkout-cone-mode: true
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6873012Z   fetch-depth: 1
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6873759Z   fetch-tags: false
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6874755Z   show-progress: true
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6875568Z   lfs: false
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6876298Z   submodules: false
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6877126Z   set-safe-directory: true
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6878114Z   allow-unsafe-pr-checkout: false
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:01.6879322Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6234814Z Syncing repository: TheKidjoker/Full-Stack-Application-Development-Capstone-Project
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6236324Z ##[group]Getting Git version info
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6237485Z Working directory is '/home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project'
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6238686Z [command]/usr/bin/git version
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6247867Z git version 2.56.1
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6260430Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6271677Z Temporarily overriding HOME='/home/runner/work/_temp/bab6accd-8116-4b32-b8a6-a86bcb6ea861' before making global git config changes
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6272899Z Adding repository directory to the temporary git global config as a safe directory
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6275682Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6740178Z Deleting the contents of '/home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project'
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6744052Z ##[group]Initializing the repository
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.6747760Z [command]/usr/bin/git init /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7594507Z hint: Using 'master' as the name for the initial branch. This default branch name
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7595185Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7595765Z hint: to use in all of your new repositories, which will suppress this warning,
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7596168Z hint: call:
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7596414Z hint:
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7596779Z hint: 	git config --global init.defaultBranch <name>
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7597093Z hint:
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7597512Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7598016Z hint: 'development'. The just-created branch can be renamed via this command:
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7598672Z hint:
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7599084Z hint: 	git branch -m <name>
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7599398Z hint:
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7599771Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7619253Z Initialized empty Git repository in /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project/.git/
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7625248Z [command]/usr/bin/git remote add origin https://github.com/TheKidjoker/Full-Stack-Application-Development-Capstone-Project
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7684117Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7685147Z ##[group]Disabling automatic garbage collection
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7687565Z [command]/usr/bin/git config --local gc.auto 0
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7709067Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7709608Z ##[group]Setting up auth
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7713380Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:04.7736181Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.0756258Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.0779156Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.0952526Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.0973624Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.1141913Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.1165991Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.1166400Z ##[group]Fetching the repository
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.1172120Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +fe7696828ba604a5f19aad3d92255e0f8c769699:refs/remotes/origin/main
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6228579Z From https://github.com/TheKidjoker/Full-Stack-Application-Development-Capstone-Project
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6230933Z  * [new ref]         fe7696828ba604a5f19aad3d92255e0f8c769699 -> origin/main
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6232337Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6232909Z ##[group]Determining the checkout info
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6235093Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6239743Z [command]/usr/bin/git sparse-checkout disable
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6288549Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6308449Z ##[group]Checking out the ref
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6311550Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6561369Z Switched to a new branch 'main'
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6569078Z branch 'main' set up to track 'origin/main'.
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6574542Z ##[endgroup]
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6613693Z [command]/usr/bin/git log -1 --format=%H
+Lint JavaScript Files	Checkout Repository	2026-11-15T19:33:05.6629313Z fe7696828ba604a5f19aad3d92255e0f8c769699
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.6827144Z ##[group]Run actions/setup-node@v4
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.6827453Z with:
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.6827663Z   node-version: 20
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.6827880Z   always-auth: false
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.6828123Z   check-latest: false
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.6829958Z   token: ***
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.6830176Z ##[endgroup]
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.8580904Z Attempting to download 20...
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.9054654Z (node:2371) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:05.9055274Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:06.4932322Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:06.9963477Z Extracting ...
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:07.0060092Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/c6540d93-67c6-4b48-8838-67be172a65b8 -f /home/runner/work/_temp/8a3da38a-4c16-4d05-827a-6d1d49d935fb
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:07.5029065Z Adding to the cache ...
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:08.3826006Z ##[group]Environment details
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:08.7557041Z node: v20.20.2
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:08.7557563Z npm: 10.8.2
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:08.7557823Z yarn: 1.22.22
+Lint JavaScript Files	Install Node.js	2026-11-15T19:33:08.7558488Z ##[endgroup]
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:08.7690751Z ##[group]Run npm install jshint --global
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:08.7691176Z npm install jshint --global
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:08.7715285Z shell: /usr/bin/bash -e {0}
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:08.7715606Z ##[endgroup]
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:09.7123504Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:09.7171254Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:09.8338479Z 
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:09.8339117Z added 31 packages in 1s
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:09.8339479Z 
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:09.8339637Z 3 packages are looking for funding
+Lint JavaScript Files	Install JSHint	2026-11-15T19:33:09.8339938Z   run `npm fund` for details
+Lint JavaScript Files	Run Linter	2026-11-15T19:33:09.8421826Z ##[group]Run # This command finds all JavaScript files recursively and runs JSHint on them
+Lint JavaScript Files	Run Linter	2026-11-15T19:33:09.8422402Z # This command finds all JavaScript files recursively and runs JSHint on them
+Lint JavaScript Files	Run Linter	2026-11-15T19:33:09.8422812Z find ./server/database -name "*.js" -exec jshint {} +
+Lint JavaScript Files	Run Linter	2026-11-15T19:33:09.8423144Z echo "Linted all the js files successfully"
+Lint JavaScript Files	Run Linter	2026-11-15T19:33:09.8441694Z shell: /usr/bin/bash -e {0}
+Lint JavaScript Files	Run Linter	2026-11-15T19:33:09.8442027Z ##[endgroup]
+Lint JavaScript Files	Run Linter	2026-11-15T19:33:09.9249571Z Linted all the js files successfully
+Lint JavaScript Files	Post Install Node.js	2026-11-15T19:33:09.9326268Z Post job cleanup.
+Lint JavaScript Files	Post Install Node.js	2026-11-15T19:33:10.0190066Z (node:2428) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint JavaScript Files	Post Install Node.js	2026-11-15T19:33:10.0191209Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.0342407Z Post job cleanup.
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.0995503Z [command]/usr/bin/git version
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1026212Z git version 2.56.1
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1051781Z Temporarily overriding HOME='/home/runner/work/_temp/e57847de-b942-46be-9791-e8e32a527747' before making global git config changes
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1053237Z Adding repository directory to the temporary git global config as a safe directory
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1055907Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1082866Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1105410Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1296636Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1310813Z http.https://github.com/.extraheader
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1318767Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1346278Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1518486Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint JavaScript Files	Post Checkout Repository	2026-11-15T19:33:10.1539034Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint JavaScript Files	Complete job	2026-11-15T19:33:10.1820969Z Cleaning up orphan processes
+Lint JavaScript Files	Complete job	2026-11-15T19:33:10.2058429Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Lint Python Files	Set up job	2026-11-15T19:32:59.9177135Z Current runner version: '2.338.2'
+Lint Python Files	Set up job	2026-11-15T19:32:59.9201430Z ##[group]Runner Image Provisioner
+Lint Python Files	Set up job	2026-11-15T19:32:59.9202333Z Hosted Compute Agent
+Lint Python Files	Set up job	2026-11-15T19:32:59.9202824Z Version: 20261103.629
+Lint Python Files	Set up job	2026-11-15T19:32:59.9203394Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+Lint Python Files	Set up job	2026-11-15T19:32:59.9204045Z Build Date: 2026-11-03T17:26:59Z
+Lint Python Files	Set up job	2026-11-15T19:32:59.9204610Z Worker ID: {8e78ee02-203b-40ac-b123-98e3b26d5acf}
+Lint Python Files	Set up job	2026-11-15T19:32:59.9205229Z Region: westus2
+Lint Python Files	Set up job	2026-11-15T19:32:59.9205686Z Cloud: Azure
+Lint Python Files	Set up job	2026-11-15T19:32:59.9206142Z ##[endgroup]
+Lint Python Files	Set up job	2026-11-15T19:32:59.9207400Z ##[group]Operating System
+Lint Python Files	Set up job	2026-11-15T19:32:59.9208068Z Ubuntu
+Lint Python Files	Set up job	2026-11-15T19:32:59.9208573Z 26.04.1
+Lint Python Files	Set up job	2026-11-15T19:32:59.9209012Z LTS
+Lint Python Files	Set up job	2026-11-15T19:32:59.9209435Z ##[endgroup]
+Lint Python Files	Set up job	2026-11-15T19:32:59.9209973Z ##[group]Runner Image
+Lint Python Files	Set up job	2026-11-15T19:32:59.9210467Z Image: ubuntu-26.04
+Lint Python Files	Set up job	2026-11-15T19:32:59.9210974Z Version: 20261111.196.1
+Lint Python Files	Set up job	2026-11-15T19:32:59.9212167Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261111.196/images/ubuntu/Ubuntu2604-Readme.md
+Lint Python Files	Set up job	2026-11-15T19:32:59.9213759Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261111.196
+Lint Python Files	Set up job	2026-11-15T19:32:59.9214541Z ##[endgroup]
+Lint Python Files	Set up job	2026-11-15T19:32:59.9215566Z ##[group]GITHUB_TOKEN Permissions
+Lint Python Files	Set up job	2026-11-15T19:32:59.9217226Z Contents: read
+Lint Python Files	Set up job	2026-11-15T19:32:59.9218172Z Metadata: read
+Lint Python Files	Set up job	2026-11-15T19:32:59.9218698Z Packages: read
+Lint Python Files	Set up job	2026-11-15T19:32:59.9219168Z ##[endgroup]
+Lint Python Files	Set up job	2026-11-15T19:32:59.9221126Z Secret source: Actions
+Lint Python Files	Set up job	2026-11-15T19:32:59.9222123Z Cache mode: write
+Lint Python Files	Set up job	2026-11-15T19:32:59.9222825Z Prepare workflow directory
+Lint Python Files	Set up job	2026-11-15T19:32:59.9967066Z Prepare all required actions
+Lint Python Files	Set up job	2026-11-15T19:33:00.0008133Z Getting action download info
+Lint Python Files	Set up job	2026-11-15T19:33:00.3450024Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Lint Python Files	Set up job	2026-11-15T19:33:00.8658291Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+Lint Python Files	Set up job	2026-11-15T19:33:01.0642768Z Complete job name: Lint Python Files
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1408796Z ##[group]Run actions/checkout@v4
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1409562Z with:
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1410177Z   repository: TheKidjoker/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1414742Z   token: ***
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1415229Z   ssh-strict: true
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1415709Z   ssh-user: git
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1416202Z   persist-credentials: true
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1416660Z   clean: true
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1417051Z   sparse-checkout-cone-mode: true
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1417511Z   fetch-depth: 1
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1417901Z   fetch-tags: false
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1418297Z   show-progress: true
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1418691Z   lfs: false
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1419071Z   submodules: false
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1419482Z   set-safe-directory: true
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1419923Z   allow-unsafe-pr-checkout: false
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.1420664Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3907836Z Syncing repository: TheKidjoker/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3910257Z ##[group]Getting Git version info
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3911634Z Working directory is '/home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project'
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3913592Z [command]/usr/bin/git version
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3923662Z git version 2.56.1
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3940321Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3954565Z Temporarily overriding HOME='/home/runner/work/_temp/474ba3ce-5920-4c08-9006-dcbefdad8aed' before making global git config changes
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3956421Z Adding repository directory to the temporary git global config as a safe directory
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.3961090Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4044148Z Deleting the contents of '/home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project'
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4055942Z ##[group]Initializing the repository
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4062100Z [command]/usr/bin/git init /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4196257Z hint: Using 'master' as the name for the initial branch. This default branch name
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4197359Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4198281Z hint: to use in all of your new repositories, which will suppress this warning,
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4198890Z hint: call:
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4199220Z hint:
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4199650Z hint: 	git config --global init.defaultBranch <name>
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4200206Z hint:
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4200750Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4201718Z hint: 'development'. The just-created branch can be renamed via this command:
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4202315Z hint:
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4202930Z hint: 	git branch -m <name>
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4203522Z hint:
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4204225Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4209724Z Initialized empty Git repository in /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project/.git/
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4220764Z [command]/usr/bin/git remote add origin https://github.com/TheKidjoker/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4275050Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4276051Z ##[group]Disabling automatic garbage collection
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4278640Z [command]/usr/bin/git config --local gc.auto 0
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4314274Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4315233Z ##[group]Setting up auth
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4320827Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4356668Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4910510Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.4943668Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.5191094Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.5223539Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.5470321Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.5509216Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.5509912Z ##[group]Fetching the repository
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.5519177Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +fe7696828ba604a5f19aad3d92255e0f8c769699:refs/remotes/origin/main
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9004677Z From https://github.com/TheKidjoker/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9006268Z  * [new ref]         fe7696828ba604a5f19aad3d92255e0f8c769699 -> origin/main
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9009109Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9010185Z ##[group]Determining the checkout info
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9011689Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9016357Z [command]/usr/bin/git sparse-checkout disable
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9067353Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9107211Z ##[group]Checking out the ref
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9108440Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9346781Z Switched to a new branch 'main'
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9350614Z branch 'main' set up to track 'origin/main'.
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9358824Z ##[endgroup]
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9404328Z [command]/usr/bin/git log -1 --format=%H
+Lint Python Files	Checkout Repository	2026-11-15T19:33:01.9428271Z fe7696828ba604a5f19aad3d92255e0f8c769699
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9774511Z ##[group]Run actions/setup-python@v5
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9775619Z with:
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9776366Z   python-version: 3.12
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9777321Z   check-latest: false
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9786447Z   token: ***
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9787255Z   update-environment: true
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9788171Z   allow-prereleases: false
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9789077Z   freethreaded: false
+Lint Python Files	Set up Python	2026-11-15T19:33:01.9789889Z ##[endgroup]
+Lint Python Files	Set up Python	2026-11-15T19:33:02.0984050Z ##[group]Installed versions
+Lint Python Files	Set up Python	2026-11-15T19:33:02.1453335Z (node:2209) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint Python Files	Set up Python	2026-11-15T19:33:02.1456125Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint Python Files	Set up Python	2026-11-15T19:33:02.1457566Z Successfully set up CPython (3.12.16)
+Lint Python Files	Set up Python	2026-11-15T19:33:02.1459266Z ##[endgroup]
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1641105Z ##[group]Run python -m pip install --upgrade pip
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1642694Z python -m pip install --upgrade pip
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1643820Z pip install flake8
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1714051Z shell: /usr/bin/bash -e {0}
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1715208Z env:
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1716154Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1718220Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1720825Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1722909Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1724934Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1726837Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+Lint Python Files	Install dependencies	2026-11-15T19:33:02.1728375Z ##[endgroup]
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.1121872Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages (26.3)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.5995468Z Collecting flake8
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.6383494Z   Downloading flake8-7.5.0-py2.py3-none-any.whl.metadata (3.8 kB)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.6518256Z Collecting mccabe<0.8.0,>=0.7.0 (from flake8)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.6607619Z   Downloading mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.6749334Z Collecting pycodestyle<2.16.0,>=2.15.0 (from flake8)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.6840334Z   Downloading pycodestyle-2.15.0-py2.py3-none-any.whl.metadata (4.5 kB)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.7147075Z Collecting pyflakes<4.2.0,>=4.1.0 (from flake8)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.7230138Z   Downloading pyflakes-4.1.0-py2.py3-none-any.whl.metadata (3.7 kB)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.7348770Z Downloading flake8-7.5.0-py2.py3-none-any.whl (57 kB)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.7496212Z Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.7585158Z Downloading pycodestyle-2.15.0-py2.py3-none-any.whl (31 kB)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.7684967Z Downloading pyflakes-4.1.0-py2.py3-none-any.whl (66 kB)
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.8017831Z Installing collected packages: pyflakes, pycodestyle, mccabe, flake8
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.9067698Z 
+Lint Python Files	Install dependencies	2026-11-15T19:33:03.9078096Z Successfully installed flake8-7.5.0 mccabe-0.7.0 pycodestyle-2.15.0 pyflakes-4.1.0
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9665854Z ##[group]Run pwd
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9666106Z pwd
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9712661Z shell: /usr/bin/bash -e {0}
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9712912Z env:
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9713144Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9713500Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9713836Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9714148Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9714446Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9714754Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9715186Z ##[endgroup]
+Lint Python Files	Print working directory	2026-11-15T19:33:03.9786284Z /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9815673Z ##[group]Run pwd
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9815967Z pwd
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9816259Z # This command finds all Python files recursively and runs flake8 on them
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9816673Z find . -name "*.py" -not -path "*/migrations/*" -exec flake8 {} +
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9817051Z echo "Linted all the python files successfully"
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9862743Z shell: /usr/bin/bash -e {0}
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9862985Z env:
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9863219Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9863593Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9863942Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9864255Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9864595Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9864903Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9865206Z ##[endgroup]
+Lint Python Files	Run Linter	2026-11-15T19:33:03.9930901Z /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Run Linter	2026-11-15T19:33:04.2044782Z Linted all the python files successfully
+Lint Python Files	Post Set up Python	2026-11-15T19:33:04.2129494Z Post job cleanup.
+Lint Python Files	Post Set up Python	2026-11-15T19:33:04.3135650Z (node:2277) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint Python Files	Post Set up Python	2026-11-15T19:33:04.3136337Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.3303761Z Post job cleanup.
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4072216Z [command]/usr/bin/git version
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4090938Z git version 2.56.1
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4123095Z Temporarily overriding HOME='/home/runner/work/_temp/da59d02f-3899-45e1-a02b-6ca7794ed08f' before making global git config changes
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4124278Z Adding repository directory to the temporary git global config as a safe directory
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4127924Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Full-Stack-Application-Development-Capstone-Project/Full-Stack-Application-Development-Capstone-Project
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4171769Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4211201Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4513122Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4539696Z http.https://github.com/.extraheader
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4550822Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4590041Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4867122Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint Python Files	Post Checkout Repository	2026-11-15T19:33:04.4902334Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint Python Files	Complete job	2026-11-15T19:33:04.5293483Z Cleaning up orphan processes
+Lint Python Files	Complete job	2026-11-15T19:33:04.5636963Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
